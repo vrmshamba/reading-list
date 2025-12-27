@@ -4,6 +4,7 @@ A mathematical lineage tracing how solving for unknowns evolved from Al-Khwarizm
 
 ---
 
+
 ## The Mathematical Progression
 ```
 Classical Algebra (Al-Khwarizmi, 820 CE)
