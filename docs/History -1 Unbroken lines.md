@@ -465,6 +465,19 @@ From restoring merchant accounts in 820 CE to balancing billion-parameter networ
 ```
 
 ---
+---
+
+## What Comes Next?
+
+Algebra carried us from symbolic logic to deep learning, from solving 
+merchant accounts to training trillion-parameter models. But we're now 
+hitting the limits of what pure algebraic methods can achieve.
+
+**Continue reading:** [Part 2: The Next Phase - Where Algebra Meets Its Limits](part-2-next-phase.md)
+
+Discover the three walls facing modern AI and the emerging mathematical 
+tools—graph calculus, causal inference, quantum computing—that will 
+power the next breakthrough.
 
 ## Further Reading
 
