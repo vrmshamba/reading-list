@@ -7,6 +7,8 @@ Machine Learning and AI
  100 Days of ML Code
 https://github.com/Avik-Jain/100-Days-Of-ML-Code,https://github.com/vrmshamba/100-Days-Of-ML-Code
 
+Machine Learning for beginners: https://github.com/vrmshamba/ML-For-Beginners
+
 
  AI for Beginners
 https://github.com/microsoft/AI-For-Beginners, https://github.com/vrmshamba/AI-For-Beginners
