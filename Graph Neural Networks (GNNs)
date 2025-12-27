@@ -1,0 +1,65 @@
+# Graph Neural Networks (GNNs): Spatial and Structural Relationships
+
+## The Shift from Grids to Graphs
+
+In the "Algebraic Phase" of AI, we treated everything like a grid (images) or a sequence (text). But most of the real world—molecules, social networks, the power grid, and even the "knowledge graph" in your brain—is a Graph.
+
+## 1. The Geometry: Nodes, Edges, and Topology
+
+In a standard neural network, the input has a fixed size and order. In a graph, there is no "first" node or "left-to-right" flow.
+
+- **Nodes ($V$)**: The entities (e.g., atoms in a molecule, people in a network)
+- **Edges ($E$)**: The relationships (e.g., chemical bonds, friendships)
+- **Adjacency Matrix ($A$)**: A square matrix where $A_{ij} = 1$ if node $i$ and node $j$ are connected, and $0$ otherwise
+
+## 2. The Math: Message Passing
+
+The "magic" of GNNs is the Message Passing phase. Instead of looking at the whole graph at once (which is computationally impossible for large networks), each node "talks" to its neighbors to update its own understanding of the world.
+
+This happens in two steps: Aggregate and Update.
+
+### The Formula
+
+For a node $v$, its state (or "embedding") at the next layer $k+1$ is calculated as:
+
+$$h_v^{(k+1)} = \sigma \left( W^{(k)} \cdot \text{AGGREGATE} \left( h_v^{(k)}, \{ h_u^{(k)} : u \in \mathcal{N}(v) \} \right) \right)$$
+
+### Breaking down the variables
+
+- $h_v^{(k)}$: The current features of node $v$
+- $\mathcal{N}(v)$: The set of neighbor nodes connected to $v$
+- $\text{AGGREGATE}$: A function (like Sum, Mean, or Max) that collects info from neighbors. It must be permutation invariant (the order of neighbors shouldn't matter)
+- $W^{(k)}$: The learnable weight matrix (the "intelligence" the AI is training)
+- $\sigma$: A non-linear activation function (like ReLU)
+
+## 3. Why this solves "Wall 1" (Combinatorial Explosion)
+
+The article mentioned that algebra assumes "smooth landscapes," but real problems like Protein Folding are discrete.
+
+GNNs solve this by encoding the inductive bias of the problem. If you are predicting how a protein folds (AlphaFold), you don't treat every atom as a random point in space; you treat them as nodes in a graph where edges represent chemical bonds and physical proximity. This drastically reduces the search space because the AI "knows" atoms influence only those they are connected to or near.
+
+## 4. Advanced GNN: The Graph Convolutional Network (GCN)
+
+One of the most popular versions is the GCN. It simplifies the message-passing into a specialized form of matrix multiplication that uses the normalized Laplacian of the graph.
+
+$$Z = \tilde{D}^{-\frac{1}{2}} \tilde{A} \tilde{D}^{-\frac{1}{2}} X W$$
+
+- $\tilde{A}$: The adjacency matrix plus self-connections (so nodes "talk" to themselves too)
+- $\tilde{D}$: The degree matrix (how many neighbors each node has), used for normalization so that nodes with 1,000 neighbors don't "overpower" the signal from nodes with 2 neighbors
+
+## Comparison: Algebra vs. Graphs
+
+| Feature | Standard Algebra (ML) | Graph Neural Networks |
+|---------|----------------------|----------------------|
+| Data Structure | Vectors / Tensors (Flat) | Non-Euclidean Graphs (Linked) |
+| Relationship | Implicit (learned) | Explicit (defined by edges) |
+| Invariance | Translation (CNNs) | Permutation (Order doesn't matter) |
+| Scaling | Fixed input size | Any graph size/shape |
+
+---
+
+## Further Reading
+
+- [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/abs/1812.08434)
+- [PyTorch Geometric Documentation](https://pytorch-geometric.readthedocs.io/)
+- [DeepMind's AlphaFold](https://alphafold.ebi.ac.uk/)
