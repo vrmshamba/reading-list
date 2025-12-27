@@ -6,9 +6,9 @@ But pattern recognition is not the same as understanding cause and effect.
 
 If ice cream sales and shark attacks both increase during summer, a model may detect a strong correlation. That does not mean ice cream causes shark attacks. Both are driven by a shared cause: warm weather.
 
-Causal calculus exists to separate correlation from causation.
+**Causal calculus exists to separate correlation from causation.**
 
-Causal calculus studies what happens when the world itself is changed.
+**Causal calculus studies what happens when the world itself is changed.**
 
 ---
 
