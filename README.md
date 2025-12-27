@@ -1,5 +1,7 @@
 Reading List
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/a2045762-c2c4-482e-86c7-7e2affae1527" />
+
 A personal space to track learning resources, ideas, and progress.
 
 Machine Learning and AI
@@ -35,6 +37,8 @@ Tools and Platforms
  Tool Name
 Link:
 
+
+
  Tool Name
 Link:
 
@@ -61,3 +65,5 @@ Use this section to record insights, follow ups, or ideas worth revisiting later
 Notes
 
 Use this space for summaries, follow ups, or ideas worth revisiting.
+
+<img width="1024" height="848" alt="image" src="https://github.com/user-attachments/assets/acac8441-24c3-4bd8-9f60-2af169913a54" />
