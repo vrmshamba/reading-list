@@ -38,7 +38,9 @@ $$h_v^{(k+1)} = \sigma \left( W^{(k)} \cdot \text{AGGREGATE} \left( h_v^{(k)}, \
 
 The article mentioned that algebra assumes "smooth landscapes," but real problems like Protein Folding are discrete.
 
-GNNs solve this by encoding the inductive bias of the problem. If you are predicting how a protein folds (AlphaFold), you don't treat every atom as a random point in space; you treat them as nodes in a graph where edges represent chemical bonds and physical proximity. This drastically reduces the search space because the AI "knows" atoms influence only those they are connected to or near.
+GNNs solve this by encoding the inductive bias of the problem. 
+If you are predicting how a protein folds (AlphaFold), you don't treat every atom as a random point in space; you treat them as nodes in a graph where edges represent chemical bonds and physical proximity. 
+This drastically reduces the search space because the AI "knows" atoms influence only those they are connected to or near.
 
 ## 4. Advanced GNN: The Graph Convolutional Network (GCN)
 
