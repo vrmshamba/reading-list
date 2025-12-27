@@ -5,10 +5,11 @@ A personal space to track learning resources, ideas, and progress.
 Machine Learning and AI
 
  100 Days of ML Code
-https://github.com/Avik-Jain/100-Days-Of-ML-Code
+https://github.com/Avik-Jain/100-Days-Of-ML-Code,https://github.com/vrmshamba/100-Days-Of-ML-Code
+
 
  AI for Beginners
-https://github.com/microsoft/AI-For-Beginners
+https://github.com/microsoft/AI-For-Beginners, https://github.com/vrmshamba/AI-For-Beginners
 
 Data Science
 
