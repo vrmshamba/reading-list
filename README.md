@@ -12,8 +12,9 @@ https://github.com/microsoft/AI-For-Beginners
 
 Data Science
 
- Project Title
-Link:
+ Project Title Python for beginners
+  
+Link:https://github.com/vrmshamba/Python101
 
  Project Title
 Link:
