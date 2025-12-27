@@ -8,6 +8,8 @@ If ice cream sales and shark attacks both increase during summer, a model may de
 
 Causal calculus exists to separate correlation from causation.
 
+Causal calculus studies what happens when the world itself is changed.
+
 ---
 
 ## Correlation vs Causation
