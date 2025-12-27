@@ -2,7 +2,8 @@
 
 ## The Shift from Grids to Graphs
 
-In the "Algebraic Phase" of AI, we treated everything like a grid (images) or a sequence (text). But most of the real world—molecules, social networks, the power grid, and even the "knowledge graph" in your brain—is a Graph.
+In the "Algebraic Phase" of AI, we treated everything like a grid (images) or a sequence (text). 
+But most of the real world—molecules, social networks, the power grid, and even the "knowledge graph" in your brain—is a Graph.
 
 ## 1. The Geometry: Nodes, Edges, and Topology
 
@@ -14,7 +15,8 @@ In a standard neural network, the input has a fixed size and order. In a graph, 
 
 ## 2. The Math: Message Passing
 
-The "magic" of GNNs is the Message Passing phase. Instead of looking at the whole graph at once (which is computationally impossible for large networks), each node "talks" to its neighbors to update its own understanding of the world.
+The "magic" of GNNs is the Message Passing phase. 
+Instead of looking at the whole graph at once (which is computationally impossible for large networks), each node "talks" to its neighbors to update its own understanding of the world.
 
 This happens in two steps: Aggregate and Update.
 
