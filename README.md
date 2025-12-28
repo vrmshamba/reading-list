@@ -4,25 +4,23 @@ Reading List
 
 A personal space to track learning resources, ideas, and progress.
 
-Statistics: Seeing theory
+Statistics.
+Seeing theory.
 https://seeing-theory.brown.edu/
 
 Machine Learning and AI
-
- 100 Days of ML Code
+100 Days of ML Code
 https://github.com/Avik-Jain/100-Days-Of-ML-Code,https://github.com/vrmshamba/100-Days-Of-ML-Code
 
-Machine Learning for beginners: https://github.com/vrmshamba/ML-For-Beginners
-
+Machine Learning for beginners.
+https://github.com/vrmshamba/ML-For-Beginners
 
  AI for Beginners
 https://github.com/microsoft/AI-For-Beginners, https://github.com/vrmshamba/AI-For-Beginners
 
 Data Science
-
- Project Title Python for beginners
-  
-Link:https://github.com/vrmshamba/Python101
+Project Title Python for beginners
+ Link:https://github.com/vrmshamba/Python101
 
  Project Title
 Link:
