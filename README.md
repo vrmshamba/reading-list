@@ -4,6 +4,9 @@ Reading List
 
 A personal space to track learning resources, ideas, and progress.
 
+Statistics: Seeing theory
+https://seeing-theory.brown.edu/
+
 Machine Learning and AI
 
  100 Days of ML Code
