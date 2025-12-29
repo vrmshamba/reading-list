@@ -14,6 +14,7 @@ https://github.com/vrmshamba/100-Days-Of-ML-Code
 
 Machine Learning for beginners.
 https://github.com/vrmshamba/ML-For-Beginners
+What is a neural network:https://www.youtube.com/watch?v=aircAruvnKk&t=7s
 
  AI for Beginners
 https://github.com/microsoft/AI-For-Beginners, https://github.com/vrmshamba/AI-For-Beginners
