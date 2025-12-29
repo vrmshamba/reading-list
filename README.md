@@ -1,6 +1,6 @@
 Reading List
 
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/a2045762-c2c4-482e-86c7-7e2affae1527" />
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/a2045762-c2c4-482e-86c7-7e2affae1527" />
 
 A personal space to track learning resources, ideas, and progress.
 
